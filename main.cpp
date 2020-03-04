@@ -2,7 +2,6 @@
 #include "epoll.h"
 #include "threadpool.h"
 #include "util.h"
-#include "config.h"
 #include <sys/epoll.h>
 #include <queue>
 #include <sys/time.h>
@@ -23,7 +22,7 @@ static const int LISTENQ = 1024;
 const int THREADPOOL_THREAD_NUM = 4;
 const int QUEUE_SIZE = 65535;
 
-const int PORT = 8000;
+const int PORT = 2020;
 const int ASK_STATIC_FILE = 1;
 const int ASK_IMAGE_STITCH = 2;
 
